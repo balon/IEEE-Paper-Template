@@ -1,0 +1,36 @@
+\documentclass[final,authoryear,5p,times,twocolumn]{IEEEtran}
+
+\input{_shortcuts}
+\usepackage{natbib}
+
+
+\begin{document}
+
+
+% Title information 
+% %%%%%%%%%%%%%%%%%
+\title{PAPER NAME GOES HERE}
+\author{NAME$^{1}$, NAME$^{2}$, NAME$^{3}$}
+\maketitle
+
+% Paper Sections 
+\input{_sections/0_abstract.tex}
+\input{_sections/1_intro.tex}
+\input{_sections/2_overview.tex}
+\input{_sections/3_mainSection.tex}
+\input{_sections/4_extraSection.tex}
+\input{_sections/5_discussion.tex}
+\input{_sections/6_conclusion.tex}
+
+% Examples
+% simply remove the 25-28 and you're good to go!
+\newpage
+\input{_sections/!_examples.tex}
+
+% References
+\bibliographystyle{abbrv}
+\bibliography{references.bib}
+
+
+\end{document}
+

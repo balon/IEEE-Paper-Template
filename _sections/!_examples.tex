@@ -1,0 +1,40 @@
+\section{Examples}\label{sec:examples}
+
+% we can prepare tables in other files to avoid clutter
+\textbf{Single-Column table:}
+\input{_assets/smTable.tex} \hfill \break 
+
+\textbf{Multi-Column table on next page.}
+\input{_assets/lgTable.tex} \hfill \break 
+
+\textbf{Command Examples:} \hfill \break 
+\todo{To complete.} \hfill \break 
+\update{To change.} \hfill \break 
+\rewrite{To refactor.} \hfill \break 
+\thoughts{Details you can provide.} \hfill \break 
+Reminder to cite \needcite. \hfill \break 
+
+\textbf{Single-Column figure:} \hfill \break 
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.2]{_graphics/smExample.png}
+  \caption{Small Photo Caption\footnotemark}
+  \label{fig:smPhoto}
+\end{figure}
+
+% example of inserting a footnote based on where you drop a mark. Floating images in multi-column papers must be referenced this way.
+\footnotetext{Image Info. (url: \url{https://example.com/image.png}) \urlDate}
+
+
+\textbf{Multi-Column figure on next page.} \hfill \break 
+\begin{figure*}[h]
+  \centering
+  \includegraphics[width=\textwidth]{_graphics/lgExample.png}
+  \caption{Large Photo Caption}
+  \label{fig:lgPhoto}
+\end{figure*}
+
+We can write down here, below the figure going onto the next page. When an image or table floats, it will fill the topmost column of the next page. We can demonstrate further using lipsum (dummy text). \hfill \break
+\lipsum[1-2] \hfill \break \break 
+
+Happy writing!

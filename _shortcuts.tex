@@ -1,0 +1,43 @@
+% packages to use
+\usepackage[hyphens]{url} 
+\usepackage{float} 
+\usepackage{amsmath}
+\usepackage{xfrac}
+\usepackage{graphicx}
+\usepackage{wrapfig, subcaption, setspace, booktabs}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{lipsum}
+\usepackage{minted}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+   	linkcolor=blue,
+   	citecolor=blue,
+    filecolor=blue,
+   	urlcolor=blue}
+
+
+\newcommand{\urlDate}{last accessed \today}
+
+% Shortcuts with prefixes 
+\newcommand*{\todo}[1]{\textbf{({\color{red}TODO:} #1)}}
+\newcommand*{\update}[1]{\textbf{({\color{green}UPDATE:} #1)}}
+\newcommand*{\rewrite}[1]{\textbf{({\color{orange}REWRITE:} #1)}}
+\newcommand*{\thoughts}[1]{\textbf{({\color{blue}THOUGHTS:} #1)}}
+\newcommand*{\needcite}{\textbf{[{\color{magenta}Citation Needed}}]}
+
+
+%\usepackage{subcaption}
+\usepackage{comment}
+%\usepackage{pgf-pie}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks% 
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+  \do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+  \do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+  \do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+  \do\Y\do\Z}
+  
+% keywords
+\providecommand{\keywords}[1]{\textbf{\textit{Index terms---}} #1}
